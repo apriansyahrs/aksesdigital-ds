@@ -10,7 +10,7 @@
                     <!--begin::Section-->
                     <div class="pb-10">
                         <!--begin::Heading-->
-                        <h1 class="anchor fw-bold mb-5" id="bootstrap-buttons" data-kt-scroll-offset="50">
+                        <h1 class="anchor fw-bold mb-5" id="overview" data-kt-scroll-offset="50">
                             <a href="#overview"></a>Buttons
                         </h1>
                         <!--end::Heading-->
