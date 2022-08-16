@@ -15,7 +15,7 @@
                         </h1>
                         <!--end::Heading-->
                         <!--begin::Block-->
-                        <div class="py-5">Gunakan gaya tombol kustom untuk tindakan dalam formulir, dialog, dan lainnya
+                        <div class="py-5">Gunakan gaya tombol kustom untuk tindakan dalaasem formulir, dialog, dan lainnya
                         </div>
                         <!--end::Block-->
                     </div>
@@ -421,7 +421,7 @@
                             <!--begin::Item-->
                             <li class="menu-item py-2 px-3">
                                 <!--begin::Link-->
-                                <a href="#overview" data-kt-scroll-toggle="true" class="menu-link p-0 nav-link">
+                                <a href="#base-buttons" data-kt-scroll-toggle="true" class="menu-link p-0 nav-link">
                                     <span class="menu-bullet">
                                         <span class="bullet bullet-dot"></span>
                                     </span>
