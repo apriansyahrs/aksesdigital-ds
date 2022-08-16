@@ -114,14 +114,6 @@
                         </h1>
                         <!--end::Heading-->
                         <!--begin::Block-->
-                        <div class="py-5">Use
-                            <code>.btn-outline</code>and
-                            <code>.btn-outline-dashed</code>Bootstrap Button classes with the standard outline theme color
-                            <code>.btn-outline-{color}</code>and
-                            <code>.btn-active-light-{color}</code>classes to have a button with outline dashed border style:
-                        </div>
-                        <!--end::Block-->
-                        <!--begin::Block-->
                         <div class="py-5">
                             <div class="rounded border p-10">
                                 <a href="#" class="btn btn-outline btn-outline-dashed me-2 mb-2">Default</a>
