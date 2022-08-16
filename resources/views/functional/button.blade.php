@@ -409,11 +409,11 @@
                             <!--begin::Item-->
                             <li class="menu-item py-2 px-3">
                                 <!--begin::Link-->
-                                <a href="#bootstrap-buttons" data-kt-scroll-toggle="true" class="menu-link p-0 nav-link">
+                                <a href="#overview" data-kt-scroll-toggle="true" class="menu-link p-0 nav-link">
                                     <span class="menu-bullet">
                                         <span class="bullet bullet-dot"></span>
                                     </span>
-                                    <span class="menu-title">Bootstrap Buttons</span>
+                                    <span class="menu-title">Overview</span>
                                 </a>
                                 <!--end::Link-->
                             </li>
