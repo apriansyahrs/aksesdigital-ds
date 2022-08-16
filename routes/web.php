@@ -21,17 +21,59 @@ Route::get('/references', function () {
 });
 
 // Perceptual
-Route::get('/typograhpy', function () {
-    return view('typograhpy');
+Route::get('/typography', function () {
+    return view('perceptual.typography');
 });
 Route::get('/color', function () {
-    return view('color');
+    return view('perceptual.color');
 });
 
 // Functional
 Route::get('/accordion', function () {
-    return view('accordion');
+    return view('functional.accordion');
 });
 Route::get('/alert', function () {
-    return view('alert');
+    return view('functional.alert');
+});
+Route::get('/badge', function () {
+    return view('functional.badge');
+});
+Route::get('/breadchumb', function () {
+    return view('functional.breadchumb');
+});
+Route::get('/button', function () {
+    return view('functional.button');
+});
+Route::get('/card', function () {
+    return view('functional.card');
+});
+Route::get('/carousel', function () {
+    return view('functional.carousel');
+});
+Route::get('/form', function () {
+    return view('functional.form');
+});
+Route::get('/modal', function () {
+    return view('functional.modal');
+});
+Route::get('/pagination', function () {
+    return view('functional.pagination');
+});
+Route::get('/rating', function () {
+    return view('functional.rating');
+});
+Route::get('/ribbon', function () {
+    return view('functional.ribbon');
+});
+Route::get('/separator', function () {
+    return view('functional.separator');
+});
+Route::get('/symbol', function () {
+    return view('functional.symbol');
+});
+Route::get('/table', function () {
+    return view('functional.table');
+});
+Route::get('/tabs', function () {
+    return view('functional.tabs');
 });
