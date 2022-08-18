@@ -50,11 +50,14 @@ Route::get('/card', function () {
 Route::get('/carousel', function () {
     return view('functional.carousel');
 });
-Route::get('/form', function () {
-    return view('functional.form');
+Route::get('/forms/controls', function () {
+    return view('functional.forms.controls');
 });
-Route::get('/modal', function () {
-    return view('functional.modal');
+Route::get('/forms/checks-radios', function () {
+    return view('functional.forms.checks-radios');
+});
+Route::get('/forms/input-group', function () {
+    return view('functional.forms.input-group');
 });
 Route::get('/pagination', function () {
     return view('functional.pagination');

@@ -138,6 +138,7 @@
                                     <!--end::Content-->
                                 </div>
                                 <!--end::Alert-->
+
                             </div>
                         </div>
                         <!--end::Block-->
@@ -150,32 +151,34 @@
                                 </button>
                                 <div class="highlight-code">
                                     <pre class="language-html" style="height: 400px">
-<code class="language-html">&lt;!--begin::Alert--&gt;
-&lt;div class="alert alert-dismissible bg-primary d-flex flex-column flex-sm-row p-5 mb-10"&gt;
-&lt;!--begin::Icon--&gt;
-&lt;span class="svg-icon svg-icon-2hx svg-icon-light me-4 mb-5 mb-sm-0"&gt;...&lt;/span&gt;
-&lt;!--end::Icon--&gt;
+                                        <code class="language-html">
+                                        &lt;!--begin::Alert--&gt;
+                                        &lt;div class="alert alert-primary d-flex align-items-center"&gt;
+                                        &lt;!--begin::Icon--&gt;
+                                        &lt;span class="svg-icon svg-icon-2hx svg-icon-light me-4 mb-5 mb-sm-0"&gt;...&lt;/span&gt;
+                                        &lt;!--end::Icon--&gt;
 
-&lt;!--begin::Wrapper--&gt;
-&lt;div class="d-flex flex-column text-light pe-0 pe-sm-10"&gt;
-  &lt;!--begin::Title--&gt;
-  &lt;h4 class="mb-2 light"&gt;This is an alert&lt;/h4&gt;
-  &lt;!--end::Title--&gt;
+                                        &lt;!--begin::Wrapper--&gt;
+                                        &lt;div class="d-flex flex-column text-light pe-0 pe-sm-10"&gt;
+                                        &lt;!--begin::Title--&gt;
+                                        &lt;h4 class="mb-2 light"&gt;This is an alert&lt;/h4&gt;
+                                        &lt;!--end::Title--&gt;
 
-  &lt;!--begin::Content--&gt;
-  &lt;span&gt;The alert component can be used to highlight certain parts of your page for higher content visibility.&lt;/span&gt;
-  &lt;!--end::Content--&gt;
-&lt;/div&gt;
-&lt;!--end::Wrapper--&gt;
+                                        &lt;!--begin::Content--&gt;
+                                        &lt;span&gt;The alert component can be used to highlight certain parts of your page for higher content visibility.&lt;/span&gt;
+                                        &lt;!--end::Content--&gt;
+                                        &lt;/div&gt;
+                                        &lt;!--end::Wrapper--&gt;
 
-&lt;!--begin::Close--&gt;
-&lt;button type="button" class="position-absolute position-sm-relative m-2 m-sm-0 top-0 end-0 btn btn-icon ms-sm-auto" data-bs-dismiss="alert"&gt;
-  &lt;span class="svg-icon svg-icon-2x svg-icon-light"&gt;...&lt;/span&gt;
-&lt;/button&gt;
-&lt;!--end::Close--&gt;
-&lt;/div&gt;
-&lt;!--end::Alert--&gt;</code>
-</pre>
+                                        &lt;!--begin::Close--&gt;
+                                        &lt;button type="button" class="position-absolute position-sm-relative m-2 m-sm-0 top-0 end-0 btn btn-icon ms-sm-auto" data-bs-dismiss="alert"&gt;
+                                        &lt;span class="svg-icon svg-icon-2x svg-icon-light"&gt;...&lt;/span&gt;
+                                        &lt;/button&gt;
+                                        &lt;!--end::Close--&gt;
+                                        &lt;/div&gt;
+                                        &lt;!--end::Alert--&gt;
+                                        </code>
+                                    </pre>
                                 </div>
                             </div>
                             <!--end::Highlight-->

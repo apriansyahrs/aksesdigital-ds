@@ -164,13 +164,57 @@
                     </div>
                     <!--end:Menu item-->
                     <!--begin:Menu item-->
-                    <div class="menu-item">
+                    <div data-kt-menu-trigger="click"
+                        class="menu-item {{ Request::is('forms*') ? 'here show' : '' }} menu-accordion">
                         <!--begin:Menu link-->
-                        <a class="menu-link {{ Request::is('form') ? 'active' : '' }} py-2"
-                            href="{{ url('/form') }}">
-                            <span class="menu-title">Form</span>
-                        </a>
+                        <span class="menu-link py-2">
+                            <span class="menu-title">Forms</span>
+                            <span class="menu-arrow"></span>
+                        </span>
                         <!--end:Menu link-->
+                        <!--begin:Menu sub-->
+                        <div class="menu-sub menu-sub-accordion">
+                            <!--begin:Menu item-->
+                            <div class="menu-item">
+                                <!--begin:Menu link-->
+                                <a class="menu-link py-2 {{ Request::is('forms/controls') ? 'active' : '' }}"
+                                    href="{{ url('/forms/controls') }}">
+                                    <span class="menu-bullet">
+                                        <span class="bullet bullet-dot"></span>
+                                    </span>
+                                    <span class="menu-title">Controls</span>
+                                </a>
+                                <!--end:Menu link-->
+                            </div>
+                            <!--end:Menu item-->
+                            <!--begin:Menu item-->
+                            <div class="menu-item">
+                                <!--begin:Menu link-->
+                                <a class="menu-link py-2 {{ Request::is('forms/checks-radios') ? 'active' : '' }}"
+                                    href="{{ url('/forms/checks-radios') }}">
+                                    <span class="menu-bullet">
+                                        <span class="bullet bullet-dot"></span>
+                                    </span>
+                                    <span class="menu-title">Checks, Radios & Switch</span>
+                                </a>
+                                <!--end:Menu link-->
+                            </div>
+                            <!--end:Menu item-->
+                            <!--begin:Menu item-->
+                            <div class="menu-item">
+                                <!--begin:Menu link-->
+                                <a class="menu-link py-2 {{ Request::is('forms/input-group') ? 'active' : '' }}"
+                                    href="{{ url('/forms/input-group') }}">
+                                    <span class="menu-bullet">
+                                        <span class="bullet bullet-dot"></span>
+                                    </span>
+                                    <span class="menu-title">Input Group</span>
+                                </a>
+                                <!--end:Menu link-->
+                            </div>
+                            <!--end:Menu item-->
+                        </div>
+                        <!--end:Menu sub-->
                     </div>
                     <!--end:Menu item-->
                     <!--begin:Menu item-->
