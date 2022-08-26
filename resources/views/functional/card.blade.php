@@ -87,13 +87,6 @@ Footer
                         </h1>
                         <!--end::Heading-->
                         <!--begin::Block-->
-                        <div class="py-5">Use
-                            <code>.card-scroll</code>and
-                            <a href="" class="fw-bold" target="_blank">height classes</a>
-                            <code>.h-{size}</code>on a card's body to have a card with scrollable content:
-                        </div>
-                        <!--end::Block-->
-                        <!--begin::Block-->
                         <div class="py-5">
                             <div class="card shadow-sm">
                                 <div class="card-header">
@@ -170,14 +163,6 @@ Footer
                             <a href="#collapsible"></a>Collapsible
                         </h1>
                         <!--end::Heading-->
-                        <!--begin::Block-->
-                        <div class="py-5">Add on Bootstrap's
-                            <code>.collapse</code>plugin to enable quick collapsible cards. For more info, please refer to
-                            the
-                            <a href="https://getbootstrap.com/docs/5.0/components/collapse/" target="_blank">official
-                                documentation</a>.
-                        </div>
-                        <!--end::Block-->
                         <!--begin::Block-->
                         <div class="py-5">
                             <div class="card shadow-sm">

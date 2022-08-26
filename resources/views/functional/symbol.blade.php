@@ -146,12 +146,6 @@
                         </h1>
                         <!--end::Heading-->
                         <!--begin::Block-->
-                        <div class="py-5">Use
-                            <code>.symbol-circle</code>and
-                            <code>.symbol-square</code>classes to change a symbol element's style:
-                        </div>
-                        <!--end::Block-->
-                        <!--begin::Block-->
                         <div class="py-5">
                             <div class="rounded border p-10 pb-0 d-flex flex-wrap">
                                 <div class="symbol symbol-50px me-10 mb-10">
@@ -224,11 +218,6 @@
                             <a href="#group"></a>Group
                         </h1>
                         <!--end::Heading-->
-                        <!--begin::Block-->
-                        <div class="py-5">Wrap symbols with
-                            <code>.symbol-group</code>class to have a group with slighly overlapped symbols:
-                        </div>
-                        <!--end::Block-->
                         <!--begin::Block-->
                         <div class="py-5">
                             <div class="rounded border p-10 pb-0 d-flex flex-wrap">

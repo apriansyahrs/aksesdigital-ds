@@ -59,6 +59,9 @@ Route::get('/forms/checks-radios', function () {
 Route::get('/forms/input-group', function () {
     return view('functional.forms.input-group');
 });
+Route::get('/modal', function () {
+    return view('functional.modal');
+});
 Route::get('/pagination', function () {
     return view('functional.pagination');
 });

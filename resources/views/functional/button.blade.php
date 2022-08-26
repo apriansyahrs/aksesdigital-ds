@@ -112,7 +112,7 @@
                         <h1 class="anchor fw-bold mb-5" id="outline-dashed-style" data-kt-scroll-offset="50">
                             <a href="#outline-dashed-style"></a>Outline Dashed Style
                         </h1>
-                        <!--end::Heading-->78
+                        <!--end::Heading-->
                         <!--begin::Block-->
                         <div class="py-5">
                             <div class="rounded border p-10">
