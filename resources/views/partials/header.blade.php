@@ -64,8 +64,8 @@
                 <!--begin::Toolbar-->
                 <div class="d-flex align-items-center">
                     <!--begin::Demo link-->
-                    <a class="btn btn-primary btn-flex h-40px border-0 fw-bold px-4 px-lg-6 ms-2 ms-lg-3" href="#"
-                        target="_blank">Demo</a>
+                    <a class="btn btn-primary btn-flex h-40px border-0 fw-bold px-4 px-lg-6 ms-2 ms-lg-3"
+                        href="https://apriansyahrs.github.io/aksesdigital-ds-auth/sign-in.html" target="_blank">Demo</a>
                     <!--end::Demo link-->
                 </div>
                 <!--end::Toolbar-->
