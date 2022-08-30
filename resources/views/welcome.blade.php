@@ -43,7 +43,8 @@
                                         Get started with principles, learn more about accessibility and get the latest
                                         updates.
                                     </div>
-                                    <a href="{{ url('demo') }}" class="btn btn-lg btn-flex btn-link btn-color-info">Get
+                                    <a href="https://apriansyahrs.github.io/aksesdigital-ds-auth/sign-in.html"
+                                        class="btn btn-lg btn-flex btn-link btn-color-info">Get
                                         started
                                         <!--begin::Svg Icon | path: icons/duotune/arrows/arr064.svg-->
                                         <span class="svg-icon ms-2 svg-icon-3">
